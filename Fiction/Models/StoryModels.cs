@@ -12,9 +12,11 @@ namespace Fiction.Models
         public int type { get; set; }
         public string story { get; set; }
         public DateTime dateTimeCreated { get; set; }
+        public DateTime dateTimeModified { get; set; }
         public int numberOfHearts { get; set; }
         public int numberOfComments { get; set; }
         public int numberOfReposts { get; set; }
+        public string name { get; set; }
         
     }
     public class CreateStoryViewModel
